@@ -1,0 +1,29 @@
+.languages
+  width 25%
+  float right
+  height 100%
+  top 5px
+  position relative
+  li
+    float left
+    margin-left 2%
+    position relative
+    transition 0.2s
+    &:nth-child(1)
+      z-index 5
+    &:nth-child(2)
+      z-index 4
+      right 50px
+    &:nth-child(3)
+      z-index 3
+      right 100px
+  &:hover
+    & > li
+      &:not(:first-child)
+        right 0
+
+.languageoption
+  width 62px
+  height 40px
+  box-shadow 0 0 10px 2px #F5F5F5
+

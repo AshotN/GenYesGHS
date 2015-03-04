@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+	head
+		include ./includes/head.jade
+	body
+		.container
+			include ./includes/header.jade
+			.body
+				div.about
+					div.title Program Overview
+					div.part
+						| GenYES is a new program at GHS where tech-savvy students build the skills necessary to support the technology integration efors of teachers, staff and ETIS.
+					div.part
+						| Any adult in the school can submit a request for student computer help. Student jobs are called TAPS (Technology Assistance Projects) and are logged in the GenYes student database.
+					div.part
+						| TAPS may involve the following
+						ul
+							li An easy-to-use onlimne help request system
+							li Helping teachers learn technology skills
+							li Creating resources that teachers use in their lessons
+							li Assisting ETIS in maintaining the GHS tech infrastructure
+							
+					div.part
+						| The result is an authentic project-based learning exeprience for the students and sustainable technology support for the teachers.
+						br
+						| This powerful model has been refined and proven in real classrooms around the world for 16 years.
+						
+					div.part
+						| Visit the 
+						a(target="_blank" href='http://www.genyes.org/').link GenerationYES Website 
+						| for more information
+					div.part.image.center
+						img(src='./images/dual_school_diagram.png' alt='The GenerationYES Model')
+					.padding-5
+			include ./includes/footer.jade

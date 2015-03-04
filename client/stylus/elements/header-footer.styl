@@ -1,0 +1,150 @@
+.sidemenu
+	background-color: rgba(68, 68, 68, 0.85);
+	height: 100%;
+	z-index: 100;
+	width: 50%;
+	color: white;
+	box-shadow: 0px 0px 20px 5px black;
+	position: absolute;
+	left: 0;
+	display none
+	font-size: 22px;
+	font-family: Roboto;
+	li
+		list-style-type: none;
+		padding 10px
+	a
+		text-decoration none
+		color: #EAEAEA;
+	.moreclose
+		font-size: 50px;
+		float: right;
+		font-family: Roboto;
+		cursor pointer
+header
+	width: 100%;
+	background-color: #F5F5F5;
+	height: 80px;
+	.more
+		display none
+		width 64px
+		img
+			width 100%
+	.logo
+		width: 320px;
+		padding-left: 10px;
+		display inline-block
+		img
+			width 125px
+			border none
+	.brenda
+		margin-left: 2%;
+		font-size: 16px;
+		position: relative;
+		bottom: 17px;
+		font-family: Roboto;
+		color: black
+		text-decoration none
+	.menu
+		width: 600px
+		font-size: 15px;
+		display inline-block
+		font-family: Roboto;
+		list-style-type: none;
+		li
+			margin-left: 2%;
+			float: left;
+			padding: 20px 5px 5px;
+			font-size: 16px;
+			
+			.active
+				color: #179CDE;
+				box-shadow: 0px 2px 0px #179CDE;
+			span:hover
+					color: #0A76BA;
+			a
+				text-decoration none
+				color: #747474;
+
+
+
+
+	
+footer
+	width 100%
+	background-color #F5F5F5
+	height 60px
+	position absolute
+	bottom 0
+	span
+		font-size: 9pt;
+		font-family Roboto
+		position relative
+		top 20px
+		left 15px
+	img
+		float right
+		height: 65%;
+		margin 0.5%
+		border none
+
+
+
+@media screen and (max-width: 1000px)
+	.logo
+		display none !important
+		
+@media screen and (max-width: 650px)
+	.logo
+		display inline-block !important
+	.menu
+		display none !important
+	.more
+		display inline-block !important
+		
+@media screen and (max-width: 425px)
+	.brenda
+		display none !important
+	.logo
+		width auto !important
+		
+@media screen and (max-width: 375px)
+	footer span
+		top 15px !important
+	footer
+		height 45px !important
+		
+		
+/*
+@media screen and (max-width: 1000px)
+	body
+		background-color green
+@media screen and (max-width: 650px) and (min-width: 425px)
+	body
+		background-color red
+		
+@media screen and (max-width: 425px)
+	body
+		background-color blue
+*/
+/*@media screen and (max-width: 1000px)
+	.logo
+		display none
+	body
+		background-color green		
+@media screen and (max-width: 650px) and (min-width: 425px)
+	.logo
+		display inline-block
+	.menu
+		display none
+	.more
+		display inline-block
+	body
+		background-color red !important		
+@media screen and (max-width: 425px)
+	.brenda
+		display none
+	.logo
+		width auto
+	body
+		background-color blue !im*/

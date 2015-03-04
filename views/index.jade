@@ -1,0 +1,40 @@
+doctype html
+html(lang='en')
+	head
+		include ./includes/head.jade
+		include ./includes/jssor.jade
+	body
+		.container
+			include ./includes/header.jade
+
+			.body
+				.imageslidythingy
+					#slider1_container(style='position: relative; margin: 0 auto;\
+					margin-top: 10px; left: 0px; width: 1300px; height: 500px; overflow: hidden;')
+						// Loading Screen
+						.loading(data-u='loading')
+							span Loading...
+						// Slides Container
+						div(data-u='slides', style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;\
+						height: 500px; overflow: hidden;')
+							div
+								img(data-u='image', src='images/slidythingy/genyes-one.png' alt="GenYes")
+
+							div
+								img(data-u='image', src='images/slidythingy/1080p.jpg' alt="1080")
+
+						// Bullet Navigator Skin Begin
+						// bullet navigator container
+						.jssorb21(data-u='navigator', style='position: absolute; bottom: 26px; left: 6px;')
+							// bullet navigator item prototype
+							div(data-u='prototype', style='POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;')
+						// Bullet Navigator Skin End
+						// Arrow Navigator Skin Begin
+						// Arrow Left
+						span.jssora21l(data-u='arrowleft', style='width: 55px; height: 55px; top: 123px; left: 8px;')
+						// Arrow Right
+						span.jssora21r(data-u='arrowright', style='width: 55px; height: 55px; top: 123px; right: 8px')
+						// Arrow Navigator Skin End
+						a(style='display: none', href='http://www.jssor.com') javascript
+					// Jssor Slider End
+			include ./includes/footer.jade

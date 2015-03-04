@@ -1,0 +1,87 @@
+div.sidemenu
+	div.moreclose
+		span X
+	ul
+		li
+			if currentPage == "Home"
+				span.active Home
+			else
+				a(href="./")
+					span Home
+		li
+			if currentPage == "About"
+				span.active About
+			else
+				a(href="./about")
+					span About
+		li
+			if currentPage == "Tech Team"
+				span.active Tech Team
+			else
+				a(href="./techteam")
+					span Tech Team
+		li
+			if currentPage == "Tutorials"
+				span.active Tutorials
+			else
+				a(href="./tutorials")
+					span Tutorials
+		li
+			if currentPage == "For Teachers"
+				span.active For Teachers
+			else
+				a(href="./forteachers")
+					span For Teachers
+		li
+			if currentPage == "Contact"
+				span.active Contact
+			else
+				a(href="./contact")
+					span Contact
+header
+	div.more
+		img(src="./images/more.png" alt="")
+	.logo
+		a(href="./") 
+			img(src="images/genyes_logo.png" alt="GenYes")
+	
+		a(target="_blank" href="http://www.glendalehigh.com/").brenda Glendale High School
+
+	ul.menu
+
+		li
+			if currentPage == "Home"
+				span.active Home
+			else
+				a(href="./")
+					span Home
+		li
+			if currentPage == "About"
+				span.active About
+			else
+				a(href="./about")
+					span About
+		li
+			if currentPage == "Tech Team"
+				span.active Tech Team
+			else
+				a(href="./techteam")
+					span Tech Team
+		li
+			if currentPage == "Tutorials"
+				span.active Tutorials
+			else
+				a(href="./tutorials")
+					span Tutorials
+		li
+			if currentPage == "For Teachers"
+				span.active For Teachers
+			else
+				a(href="./forteachers")
+					span For Teachers
+		li
+			if currentPage == "Contact"
+				span.active Contact
+			else
+				a(href="./contact")
+					span Contact

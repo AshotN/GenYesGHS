@@ -1,0 +1,60 @@
+doctype html
+html(lang='en')
+	head
+		include ./includes/head.jade
+	body
+		.container
+			include ./includes/header.jade
+			.body
+				div.about
+					div.title Request a Student Tech Leader
+					div.part
+						| Log in here to create a teacher profile and enter a job request: 
+						a.link(target="_blank" href='http://glendalehs.techyes.org/login') glendalehs.techyes.org/login
+					div.part
+						| Click the 
+						span.bold Sign Up 
+						| button to create your profile
+					div.part.leftpush
+						span.bold Username: 
+						| First Initial and Last Name (E.G. John Smith -> jsmith)
+						br
+						span.bold Password: 
+						| Abcd1234!
+					div.part.image.center
+						a.blue(target="_blank" href='http://glendalehs.techyes.org/login')
+							img(src='./images/login.png' alt='GenYes TAP Login')
+					.padding-15
+					div.part
+						.title.thick Changing your computer and Zangle/Q password:
+						.padding-5
+						div.leftpush
+							div On a PC, simply press the CTRL-ALT-DEL keys simultaneously and select “Change password”
+							.padding-5
+							div On a Mac, go to Apple Menu --> System Preferences --> Accounts. Select the user account to update and select “Change Password”
+					.padding-10
+					div.part
+						.title.thick To Change The Saved Password on Your Computer
+						.padding-10
+						div.leftpush
+							.bold Chrome
+							.padding-5
+							div.leftpush
+								div 1. In the address bar, type chrome://settings
+								div 2. Under the section “Passwords and forms” the user can either:
+								div.leftpush a. Uncheck the box “Offer” to save your web passwords to disable saving any passwords altogether
+								div.leftpush b. Click “Manage passwords” and delete any unwanted saved passwords by selecting the “X” next to each item
+								div 3. Select Done
+						.padding-30
+						div.leftpush
+							.bold Internet Explorer:
+							.padding-5
+							div.leftpush
+								div 1. On the menu bar, select Tools | Internet Options | Content tab
+								div 2. Under the “AutoComplete” section select “Settings”
+								div 3. The user can either:
+								div.leftpush a. Uncheck the box “User names and passwords on forms” to disable saving any passwords altogether
+								div.leftpush b. Click “Manage passwords” and select “Remove” under each saved password item
+								div 4. Click OK then OK again
+						.padding-10
+			include ./includes/footer.jade
