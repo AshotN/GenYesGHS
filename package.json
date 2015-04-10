@@ -15,7 +15,8 @@
 		"gulp-filesize": "^0.0.6",
 		"couleurs": "^2.0.0",
     "body-parser": "^1.9.0",
-		"pmx": "^0.3.1"
+		"pmx": "^0.3.1",
+		"gulp-filesize": "~0.0.6"
 	},
 	"scripts": {
 		"start": "node start.js"

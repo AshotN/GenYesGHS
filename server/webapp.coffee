@@ -24,7 +24,7 @@ app.get '/tutorials', (req, res) ->
 	res.render 'tutorials', currentPage: "Tutorials"
 
 app.get '*', (req, res) ->
-	res.render '404'
+	res.status(404).render '404'
 
 process.on "uncaughtException", (err) ->
 	if err.errno is "EADDRINUSE"
