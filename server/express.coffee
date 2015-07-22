@@ -1,5 +1,5 @@
 path = require 'path'
-stylus = require 'stylus'
+
 express = require 'express'
 
 config = require '../config'
