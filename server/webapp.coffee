@@ -1,4 +1,3 @@
-require('pmx').init();
 express = require 'express'
 config = require '../config'
 app = require './express'

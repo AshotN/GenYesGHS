@@ -10,7 +10,7 @@ app.disable 'x-powered-by'
 
 app.use express.static path.resolve __dirname, '../client'
 app.set 'views', path.resolve __dirname, '../views'
-app.set 'view engine', 'jade'
+app.set 'view engine', 'pug'
 
 #console.log 5, sessionStore.db
 module.exports = app
